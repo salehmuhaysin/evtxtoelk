@@ -8,8 +8,10 @@ evtx -> xml -> dict -> elasticsearch
 
 open the evtxtoelk.py and change the values for:
 
-> evtx_dir: folder contains all evtx files\n
-> index: index to push to on the database\n
+> evtx_dir: folder contains all evtx files
+
+> index: index to push to on the database
+
 > url: URL for the elasticsearch database
 
 special thanks to Dragos [dgunter] developing the base line of this script
